@@ -1,0 +1,48 @@
+body{
+  background: url("https://img.freepik.com/free-vector/blue-cloudy-daylight-background-weather-design_33099-512.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    background-color: transparent;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px); /* Adjust the blur amount to match the background blur */
+    border-radius: 10px;
+    padding: 25px;
+    
+
+}
+input {
+    background: transparent;
+    border: none; 
+    border-bottom: 2px solid lightgray; 
+    outline: none; /* Remove the outline when the input is focused */
+    color: dodgerblue;
+    font-size: 15px;
+    font-weight: 100;
+}
+#btn{
+    margin-left: 15px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: none;
+    width: 75px;
+}
+
+#result{
+    text-align: center;
+}
+img{
+    width: 7em;
+}
+h1{
+    color: blue;
+    font-size: 3em;
+}
